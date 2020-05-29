@@ -1,0 +1,28 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <section class="content">
+      <h1>Worrauf legst du deinen Fokus?</h1>
+      <ul class="request-list"> 
+          <a href="/sport_ausserhalb_wettkampf.html">
+        <li>
+          <span class="text">Wetttkampfcharakter</span>
+          <div>
+            <i class="material-icons emoji_events">emoji_events</i>
+          </div>
+        </li>
+          </a>
+
+          <a href="/sport_ausserhalb_entspannt.html">
+        <li>
+          <span class="text">Entspannte Bewegung</span>
+          <div>
+            <i class="material-icons mood">mood</i>
+          </div>
+        </li>
+          </a>
+      </ul>
+    {% include "partials/backbutton.nunjucks" %}
+    </section>
+{% endblock %}

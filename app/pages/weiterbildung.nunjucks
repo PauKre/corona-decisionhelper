@@ -1,0 +1,27 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <section class="content">
+      <h1>Wie würdest du dich gerne weiterbilden?</h1>
+      <ul class="request-list"> 
+        <a href="/weiterbildung_alleine.html">
+        <li>
+          <span class="text">Alleine</span>
+          <div>
+            <i class="material-icons person">person</i>
+          </div>
+        </li>
+        </a>
+        <a href="/weiterbildung_gemeinsam.html">
+        <li>
+          <span class="text">Gemeinsam</span>
+          <div>
+            <i class="material-icons group">group</i>
+          </div>
+        </li>
+            </a>
+      </ul>
+    {% include "partials/backbutton.nunjucks" %}
+    </section>
+{% endblock %}

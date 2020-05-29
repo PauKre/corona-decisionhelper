@@ -1,0 +1,28 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <section class="content">
+      <h1>Mit wie vielen Freunden willst du kommunizieren?</h1>
+      <ul class="request-list"> 
+          <a href="/unterhaltung_kommunizieren_zuzweit.html">
+        <li>
+          <span class="text">Zu Zweit</span>
+          <div>
+            <i class="material-icons group">group</i>
+          </div>
+        </li>
+          </a>
+
+          <a href="/unterhaltung_kommunizieren_gruppe.html">
+        <li>
+          <span class="text">Mit mehr als zwei Personen</span>
+          <div>
+            <i class="material-icons group_add">group_add</i>
+          </div>
+        </li>
+          </a>
+      </ul>
+    {% include "partials/backbutton.nunjucks" %}
+    </section>
+{% endblock %}

@@ -1,0 +1,28 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <section class="content">
+      <h1>Wie willst du trainieren?</h1>
+      <ul class="request-list"> 
+          <a href="/sport_zuhause_trainer.html">
+        <li>
+          <span class="text">Mit Trainer</span>
+          <div>
+            <i class="material-icons sports">sports</i>
+          </div>
+        </li>
+          </a>
+
+          <a href="/sport_zuhause_selbstorganisiert.html">
+        <li>
+          <span class="text">Selbstorganisiert</span>
+          <div>
+            <i class="material-icons emoji_people">emoji_people</i>
+          </div>
+        </li>
+          </a>
+      </ul>
+    {% include "partials/backbutton.nunjucks" %}
+    </section>
+{% endblock %}

@@ -1,0 +1,73 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <section class="content">
+      <h1>Du willst zu Hause mit einem Trainer trainieren!</h1>
+      <p>Hier sind deine Möglichkeiten: ....</p>
+      <ul>
+        <li><a href="#freeletics">Freeletics</a></li>
+        <li><a href="#centr">Centr</a></li>
+        <li><a href="#gymondo">Gymondo</a></li>
+      </ul>
+      
+      <h2 id="freeletics">Freeletics</h2>
+      <h3>Beschreibung</h3>
+      <p>Freeletics ist eine von der Freeletics GmbH veröffentlichte Fitnessapp. Das Münchner StartUp fokusiert sich auf Homeworkouts ohne Geräte, vor allem im High-Intensity-Intervall-Trainingsstil (HIIT). Seine Ziele erreicht man hier vor allem über so genannte "Trainings Journeys", die personalisiert werden und mit verschiedenen Zielen ("Abnehmen", "Trainiere für lebenslange Fitness", "Trainiere hart", etc.) angeboten werden. Außerdem wird viel Wert auf den sozialen Aspekt gelegt. Mit über 42 Millionen Nutzern wirbt Freeletics mit seiner großen Community, die die eigene Motivation auch langfristig hochhalten soll. </p>
+      <h3>Besonderheiten</h3>
+      <p>Seit Januar 2020 wird zusätzlich zu Fitness & Ernährung auch "Freeletics Mindset" angeboten, welches neben der körperlichen Gesundheit auch die geistige Gesundheit verbessern soll. Außerdem gibt es eigene Freeletics Kollektionen. </p>
+      <h3>Anleitung</h3>
+      <ol>
+        <li>Account erstellen </li>
+        <li>Persönliche Daten (Geschlecht, Alter, Größe, Gewicht, Fitnesslevel) angeben</li>
+        <li>Training Journey auswählen oder einzelne Workouts durchprobieren </li>
+        <li>Training starten</li>
+        <li>Training im Anschluss bewerten, um Anpassungen für das nächste Training zu erhalten</li>
+      </ol>
+      <h3>Kosten</h3>
+      <p>App kostenlos, Trainings Journeys erfordern einen Premium Account für 34,99 € für 3 Monate (nur Training, ohne Ernährung)(Stand: 23.05.2020) </p>
+      <h3>Quellen</h3>
+      <p><a href="https://www.freeletics.com/de/ ">Homepage</a>,<a href="https://www.freeletics.com/en/press/wp-content/uploads/sites/24/2020/04/DE_Press-Kit_15.04.2020-1.pdf">Freelatics Presskit</a> </p>
+      
+      <br/><br/>
+      
+      <h2 id="centr">Centr</h2>
+      <h3>Beschreibung</h3>
+      <p>Centr ist eine Fitnessapp, gestartet von Chris Hemsworth. Sie bietet verschiedene Trainingsarten wie HIIT, Boxen, Yoga, MMA oder Krafttraining an. Der Fokus liegt hier auf Trainings zu Hause, aber auch im Fitnessstudio. Angeboten wird hier ein vollständiger Ernährungsplan, sowie begleitete Meditations- und Mindfulness-Übungen. </p>
+      <h3>Besonderheiten</h3>
+      <p>Promi-Bonus: Chris Hemsworth als prominenter Initiator der App.</p>
+      <h3>Anleitung</h3>
+      <ol>
+        <li>Erstellen eines Accounts</li>
+        <li>Angabe persönlicher Daten</li>
+        <li>Auswahl des Trainings</li>
+        <li>Training starten</li>
+      </ol>
+      <h3>Kosten</h3>
+      <p>Die Nutzung kostet nach einer einwöchigen Probezeit 20 Dollar/Monat bei Abschluss eines 3-monatigen Abos. (Stand: 23.05.2020) </p>
+      <h3>Quellen</h3>
+      <p><a href="https://centr.com/join-us">Homepage</a>, <a href="https://sensortower.com/ios/DE/loup-pty-ltd/app/centr-by-chris-hemsworth/1382530817/overview">Nutzungszahlen</a> </p>
+      
+      <br/><br/>
+      
+      <h2 id="gymondo">Gymondo</h2>
+      <h3>Beschreibung</h3>
+      <p>Gymondo bietet verschiedene Home-Workouts an. Diese werden in verschiedenen Programmen organisiert. Diese reichen von Schwangerschaftsgymnastik, über Yoga bis hin zu Programmen mit prominenten Partnern wie Daniel Aminati. Außerdem wird hier eine Auswahl an gesunden Kochrezepten angeboten. Auch hier wird mit der großen Community für mehr Motivation geworben. </p>
+      <h3>Besonderheiten</h3>
+      <p>Kooperiert mit Krankenkassen, sodass von Programmen teilweise bis zu 100 Prozent der Kosten übernommen werden. </p>
+      <h3>Anleitung</h3>
+      <ol>
+        <li>Erstellen eines Accounts</li>
+        <li>Angabe persönlicher Daten</li>
+        <li>Auswahl eines Programms</li>
+        <li>Training starten</li>
+      </ol>
+      <h3>Kosten</h3>
+      <p>Gymondo kostet nach einer einwöchigen Probezeit derzeit 9,74/Monat bei Abschluss eines 3-monatigen Abos. (Stand: 23.05.2020) </p>
+      <h3>Quellen</h3>
+      <p><a href="https://www.gymondo.com/de/checkout/package/">Gymondo Preisübersicht</a>,
+      <a href="https://www.krankenkassenzentrale.de/test/gymondo#">Gymondo im Test</a>,
+      <a href="https://www.gymondo-praevention.de/#/registration">Gymondo Anmeldung</a></p>
+    {% include "partials/homebutton.nunjucks" %}
+    </section>
+{% endblock %}

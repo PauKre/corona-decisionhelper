@@ -1,0 +1,9 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <section class="content">
+      <p>Diese Seite ist gerade noch in Arbeit. Komm später wieder</p>
+    {% include "partials/backbutton.nunjucks" %}
+    </section>
+{% endblock %}

@@ -1,0 +1,163 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <section class="content">
+      <h1>Du willst also ausserhalb von zu Hause entspannt trainiern!</h1>
+      <p>Wenn du deinen Fortschritt aufzeichnen willst, schaue dir doch folgendes an:</p>
+      <ul>
+        <li><a href="#runtastic">Runtastic</a></li>
+        <li><a href="#strava">Strava</a></li>
+        <li><a href="#fitbit">Fitbit</a></li>
+        <li><a href="#garmin">Garmin Connect</a></li>
+      </ul>
+      <p>Suchst du etwas zum kommunizieren beim Laufen, könnte das hier etwas für dich sein:</p>
+      <ul>
+        <li><a href="#houseparty">Houseparty</a></li>
+        <li><a href="#snapchat">Snapchat</a></li>
+        <li><a href="#whatsapp">WhatsApp</a></li>
+      </ul>
+
+      
+      <h2 id="runtastic">Runtastic</h2>
+      <h3>Beschreibung</h3>
+      <p>Runtastic ist eine Lauf- und Trainingsapp von dem Konzern Adidas. Die App erlaubt es einem, sich Muskelgruppen auszusuchen, auf die man sich konzentrieren möchte, eigene Workouts zu erstellen und in Challenges gegen Freunde anzutreten. Die Fitnessaktivitäten können aufgezeichnet, analysiert und global veröffentlicht werden. Geeignet ist die Applikation für jedes Intensitätslevel.  </p>
+      <h3>Besonderheiten</h3>
+      <p>Design persönlich anpassbar. Zufällige Berührungen des Smartphones beenden die Aufzeichnung nicht sofort.</p>
+      <h3>Anleitung</h3>
+      <ol>
+        <li>Mit dem Facebook Account oder der E-Mail Adresse registrieren</li>
+        <li>Standortbestimmungen aktivieren</li>
+        <li>In den Einstellungen die richtige Sportart oder Route wählen</li>
+        <li>Auf Start tippen. Aufgezeichnet werden vergangene Zeit, Geschwindigkeit und Position auf der Karte</li>
+        <li>Nach Beenden der Sporteinheit Aufzeichnung speichern oder löschen</li>
+      </ol>
+      <h3>Kosten</h3>
+      <p>Kostenlos nutzbar, Pro Version mit Zusatzfunktionen für 4,99€ erhältlich</p>
+      <h3>Quellen</h3>
+      <p><a href="https://www.runtastic.com/de/">Homepage</a>, <a href="https://www.turn-on.de/tech/ratgeber/anleitung-so-nutzt-du-die-fitness-app-runtastic-14647 ">Runtastic Anleitung</a></p>
+      
+      <br/><br/>
+      
+      <h2 id="strava">Strava</h2>
+      <h3>Beschreibung</h3>
+      <p>Strava nutzt GPS Daten, um die Leistungsdaten der Nutzer aufzuzeichnen. Besonderer Fokus liegt auf Läufern und Fahrradfahrern. Die App synchronisiert sich mit Smartphones, Navigationssystemen, GPS-Uhren, Herzfrequenzmonitoren und Leistungsmessern. Die aufgezeichnete Aktivität kann dem Strava-Feed hinzugefügt werden, wo Freunde und Follower sie sehen können. Zusätzlich gibt es „Clubs“, die dabei helfen, Aktivitäten mit Freunden zu organisieren und Gemeinschaften zu fördern. Dadurch erhält der Wettbewerbsaspekt auch hier eine große Bedeutung.  </p>
+      <h3>Besonderheiten</h3>
+      <p> Standorte in Echtzeit teilen, um in Notsituationen schnell gefunden zu werden. Es können Bilder zu den Aktivitäten hinzugefügt werden. Routenvorschläge von anderen Mitgliedern können ausprobiert werden. </p>
+      <h3>Anleitung</h3>
+      <ol>
+        <li>Mit dem Facebook oder der E-Mail Adresse registrieren</li>
+        <li>Aktivität manuell hinzufügen oder Route erstellen</li>
+        <li>Freunde per E-Mail, Facebook oder durch die Suche hinzufügen</li>
+        <li>Aktivität teilen, um sich mit Freunden zu vergleichen</li>
+      </ol>
+      <h3>Kosten</h3>
+      <p>kostenlos</p>
+      <h3>Quellen</h3>
+      <p><a href="https://sproutsocial.com/insights/facebook-stats-for-marketers/">Facebook Statistiken</a></p>
+      
+      <br/><br/>
+      
+      <h2 id="fitbit">Fitbit</h2>
+      <h3>Beschreibung</h3>
+      <p>Fitbit trackt die gemachten Schritte, die Strecke, das Tempo, verbrannte Kalorien und aktive Minuten. Wenn man keine Fitbit-Smartwatch besitzt, seine Aktivitäten aber trotzdem tracken möchte, kann man auch mit dem Smartphone grundlegende Statistiken wie Schritte, Strecke und verbrannte Kalorien aufzeichnen. Die Statistiken lassen sich via soziale Medien teilen, um Freunde an den Erfolgen teilnehmen zu lassen.</p>
+      <h3>Besonderheiten</h3>
+      <p>Schlaf und Ernährung kann auch getrackt werden. Man kann eine persönliche Beratung erhalten. </p>
+      <h3>Anleitung</h3>
+      <ol>
+        <li>Ein Konto erstellen und angeben, welche Smartwatch benutzt wird</li>
+        <li>Die Anwendung mit der Smartwatch über Bluetooth koppeln</li>
+        <li>Via App können nun die Funktionen der Uhr konfiguriert werden</li>
+        <li>Freunde oder Bekannte hinzufügen, um Wettbewerbe zu starten</li>
+      </ol>
+      <h3>Kosten</h3>
+      <p>Kostenlos nutzbar, es fallen jedoch Anschaffungskosten für die Smartwatch an</p>
+      <h3>Quellen</h3>
+      <p><a href="https://www.fitbit.com/de/app">Homepage</a>, <a href=" https://www.vodafone.de/featured/service-hilfe/android-tipps/die-fitbit-app-deine-fitness-und-gesundheits-app-verwalten/#/ ">Fitbit Guide</a></p>
+      
+      <br/><br/>
+
+      <h2 id="garmin">Garmin Connect</h2>
+      <h3>Beschreibung</h3>
+      <p>Garmin Connect bietet benutzerdefinierte Trainings, die an die Fähigkeiten der Nutzer angepasst werden, sowie individuelle Trainingstipps. Die App bietet eine Vielzahl von verschiedenen Aktivitäten, deckt also nicht nur die häufigsten wie Laufen und Fahrradfahren ab, sondern beispielsweise auch Schwimmen oder Kajakfahren. Zusätzlich gibt es die Möglichkeit, an Schrittzahl- und Distanz-Challenges teilzunehmen und somit gegen Freunde anzutreten.</p>
+      <h3>Besonderheiten</h3>
+      <p>Design ist anpassbar Es gibt die Möglichkeit, persönliche Coaches in Anspruch zu nehmen</p>
+      <h3>Anleitung</h3>
+      <ol>
+        <li>Erstellen eines Kontos</li>
+        <li>Geräte- und Benutzereinstellungen im Garmin Connect Konto anpassen</li>
+        <li>Aktivität hinzufügen</li>
+        <li>Sporteinheit im Konto hochladen, um an Wettkämpfen teilzunehmen und Trainingsziele zu erreichen</li>
+      </ol>
+      <h3>Kosten</h3>
+      <p>Kostenlos nutzbar, es fallen jedoch Anschaffungskosten für die Smartwatch an</p>
+      <h3>Quellen</h3>
+      <p><a href="https://connect.garmin.com/">Homepage</a>, <a href=" https://www8.garmin.com/manuals/webhelp/vivosmart/DE-DE/GUID-5425A84F-9B90-4C42-97C5-F2D410A15301.html ">Benutzerhandbuch</a></p>
+    
+    
+    
+    <h2 id="houseparty">Housparty</h2>
+      <h3>Beschreibung</h3>
+      <p>Houseparty ist eine Gruppenvideochat-App für iOS, Android, macOS und Chrome, bei der sich bis zu acht Personen in einem Raum treffen können. Beginnt ein Nutzer einen Videochat mit einem seiner Freunde, entsteht ein virtueller Raum, dem nun die Kontakte der Beiden einfach beitreten können. Sind Beide bereits online, genügt ein Klick um das Gespräch zu beginnen, denn es gibt kein vorheriges Klingeln. Außerdem erhält man eine Benachrichtigung wenn ein Freund "im Haus ist" (also online ist). Ziel der App ist es, das Zusammenkommen möglichst unkompliziert zu gestalten und durch das einfache Beitreten über verschiedene Freunde das Gefühl einer Houseparty nachzuempfinden.  </p>
+      <h3>Besonderheiten</h3>
+      <p>Verschiedene Spiele im Videochat <br/> Möglichkeit neue Leute kennenzulernen (durch Beitritt zu Räumen von Freunden mit deren Freunden</p>
+      <h3>Anleitung</h3>
+      <ol>
+        <li>Houseparty installieren</li>
+        <li>Einen Account erstellen</li>
+        <li>Freunde aus Kontakten, Facebook, Snapchat oder anhand von Nutzernamen hinzufügen  </li>
+        <li>Freunde anrufen um Raum zu eröffnen oder bestehendem Raum von Freunden beitreten</li>
+      </ol>
+      <h3>Kosten</h3>
+      <p>kostenlos</p>
+      <h3>Quellen</h3>
+      <p><a href="https://houseparty.com/">Homepage</a>,<a href=" https://www.spiegel.de/netzwelt/apps/houseparty-hackvorwuerfe-gegen-beliebte-videochat-app-der-fortnite-macher-a-38c6d09d-eb24-403e-895b-b0581c942730">Spiegel Artikel zu Houseparty</a> </p>
+      
+      <br/><br/>
+      
+      <h2 id="snapchat">Snapchat</h2>
+      <h3>Beschreibung</h3>
+      <p>Snapchat ist eine Smartphone App, mit der ursprünglichen Idee, Fotos, Nachrichten und kurze Videos zu verschicken, die dann direkt wieder gelöscht werden. Hierfür stehen dem Nutzer zahlreiche Filter und Lenses (Augmented Reality wie beispielsweise Hundeohren und Schnauze) zur Verfügung, mit denen die Aufnahmen bearbeitet werden können. Im Laufe der Zeit wurde die App um weitere Funktionen, wie Stories, eine Standortkarte sowie standortabhängige Filter erweitert. Außerdem können mittlerweile bis zu 16 Personen über die App videochatten.  </p>
+      <h3>Besonderheiten</h3>
+      <p>Videochat mit Filtern und Lenses  </p>
+      <h3>Anleitung</h3>
+      <ol>
+        <li>Snapchat auf dem Smartphone installieren</li>
+        <li>Account erstellen</li>
+        <li>Freunde hinzufügen</li>
+        <li>Unter "Chats" eine Gruppe erstellen und einen Videoanruf starten</li>
+      </ol>
+      <h3>Kosten</h3>
+      <p>kostenlos</p>
+      <h3>Quellen</h3>
+      <p><a href="https://play.google.com/store/apps/details?id=com.snapchat.android&hl=de">Google Playstore Link</a>,<a href="https://www.snapchat.com/l/de-de/">Homepage</a></p>
+      
+      
+      <br/><br/>
+      
+      
+      <h2 id="whatsapp">WhatsApp</h2>
+      <h3>Beschreibung</h3>
+      <p>Der Messenger WhatsApp bietet seit 2009 auf Smartphones die Alternative zu SMS und Telefon. WhatsApp gehört seit 2014 zur Facebook Inc. und wurde im Februar 2020 von 2 Milliarden Menschen aktiv genutzt. Über Internetverbindung können Fotos, Videos, Dokumente, Kontakte und Sprachnachrichten verschickt und Telefonate geführt werden. Derzeit sind Sprach- und Videoanrufe mit bis zu acht Personen möglich.  </p>
+      <h3>Besonderheiten</h3>
+      <p>Sehr weit verbreitet</p>
+      <h3>Anleitung</h3>
+      <ol>
+        <li>WhatsApp installieren</li>
+        <li>Account mit Handynummer erstellen</li>
+        <li>Kontakte aus Kontaktliste synchronisieren</li>
+        <li>Für Videoanruf in Gruppe: 
+          <ol>
+            <li>Gruppenchat erstellen und Videoanruf starten </li>
+            <li>Einen Kontakt anrufen und weitere Kontakte hinzufügen</li>
+            <li>Unter Anrufe neuen Gruppenanruf starten</li>
+          </ol>
+        </li>
+      </ol>
+      <h3>Kosten</h3>
+      <p>kostenlos</p>
+      <h3>Quellen</h3>
+      <p><a href="https://play.google.com/store/apps/details?id=com.whatsapp&hl=de">Google Playstore Link</a>, <a href="https://de.statista.com/statistik/daten/studie/285230/umfrage/aktive-nutzer-von-whatsapp-weltweit/">Nutzerstatistiken</a>, <a href="https://faq.whatsapp.com/de/android/26000026/">Anleitung für Videoanrufe</a></p>
+    {% include "partials/homebutton.nunjucks" %}
+    </section>
+{% endblock %}

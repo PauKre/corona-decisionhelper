@@ -1,0 +1,55 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <section class="content">
+      <h1>Du willst also mit einer Gruppe von Freunden gemeinsam online Trinkspiele spielen!</h1>
+      <p>Jedes Spiel ist mit etwas Kreativität ein Trinkspiel. Such dir ein Spiel aus und hab Spaß</p>
+      <p>Aber denk dran: <a href="https://www.bierbewusstgeniessen.de/drink-responsibly/">drink responsibly</a>!</p>
+      <ul>
+        <li><a href="#tabletop">Tabletop Simulator</a></li>
+        <li><a href="#quizduell">Quizduell</a></li>
+        <li><a href="#houseparty">Houseparty</a></li>
+      </ul>
+      
+      <h2 id="tabletop">Tabletop Simulator</h2>
+      <h3>Beschreibung</h3>
+      <p>Tabletop Simulator ist ein Indie-Computerspiel, das es Spielern ermöglicht, Tabletop-Spiele in einer Computersimulation zu spielen und zu erstellen. Dafür wird eine Mehrspieler-Physik-Sandbox verwendet, die es den Spielern ermöglicht mit Spielsteinen, Spielkarten und anderem Spielmaterial zu interagieren. </p>
+      <h3>Besonderheiten</h3>
+      <p>Online Brettspiele</p>
+      <h3>Anleitung</h3>
+      <ol>
+        <li>TODO</li>
+      </ol>
+      <h3>Kosten</h3>
+      <h3>Quellen</h3>
+      
+      <br/><br/>
+      
+      <h2 id="quizduell">Quizduell</h2>
+      <h3>Beschreibung</h3>
+      <p>Quizduell ist die deutschsprachige Version der schwedischsprachigen mobilen App „Quizkampen“.  Die Mitspieler müssen in verschiedenen Fragenkategorien mehr Fragen richtig beantworten als ein ausgewählter oder zufälliger Kontrahent. </p>
+      <h3>Besonderheiten</h3>
+      <h3>Anleitung</h3>
+      <ol>
+        <li>TODO</li>
+      </ol>
+      <h3>Kosten</h3>
+      <h3>Quellen</h3>
+      
+      <br/><br/>
+      
+      <h2 id="houseparty">Houseparty</h2>
+      <h3>Beschreibung</h3>
+      
+      <h3>Besonderheiten</h3>
+      
+      <h3>Anleitung</h3>
+      <ol>
+        <li>TODO</li>
+      </ol>
+      <h3>Kosten</h3>
+      <h3>Quellen</h3>
+    {% include "partials/homebutton.nunjucks" %}
+    </section>
+{% endblock %}

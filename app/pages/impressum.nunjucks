@@ -1,0 +1,25 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <section class="content">
+      <h1>Impressum</h1>
+      <p>FAU Erlangen-Nürnberg - Wirtschafts- und Sozialwissenschaftliche Fakultät</p>
+      <p>Findelgasse 7/9</p>
+      <p>90402 Nürnberg</p>
+      <h3>Kontakt</h3>
+      <p>Paul Kremer</p>
+      <p>paul.kremer@fau.de</p>
+      <h3>Haftung für Links</h3>
+      <p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben.
+Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der
+verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten
+Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte
+waren zum Zeitpunkt der Verlinkung nicht erkennbar.
+<br/>Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer
+Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links
+umgehend entfernen.</p>
+
+
+    </section>
+{% endblock %}

@@ -1,0 +1,28 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <section class="content">
+      <h1>Welche Art von Party willst du feiern?</h1>
+      <ul class="request-list"> 
+          <a href="/unterhaltung_party_trinkspiele.html">
+        <li>
+          <span class="text">Trinkspiele spielen</span>
+          <div>
+            <i class="material-icons local_bar">local_bar</i>
+          </div>
+        </li>
+          </a>
+
+          <a href="/unterhaltung_party_livekonzerte.html">
+        <li>
+          <span class="text">Live Unterhaltung (Onlinekonzerte)</span>
+          <div>
+            <i class="material-icons music_video">music_video</i>
+          </div>
+        </li>
+          </a>
+      </ul>
+    {% include "partials/backbutton.nunjucks" %}
+    </section>
+{% endblock %}

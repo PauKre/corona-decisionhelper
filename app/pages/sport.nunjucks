@@ -1,0 +1,28 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <section class="content">
+      <h1>Wo möchtest du Sport treiben?</h1>
+      <ul class="request-list"> 
+          <a href="/sport_zuhause.html">
+        <li>
+          <span class="text">Zu Hause</span>
+          <div>
+            <i class="material-icons home">home</i>
+          </div>
+        </li>
+          </a>
+
+          <a href="/sport_ausserhalb.html">
+        <li>
+          <span class="text">Außerhalb von Zu Hause</span>
+          <div>
+            <i class="material-icons local_florist">local_florist</i>
+          </div>
+        </li>
+          </a>
+      </ul>
+    {% include "partials/backbutton.nunjucks" %}
+    </section>
+{% endblock %}

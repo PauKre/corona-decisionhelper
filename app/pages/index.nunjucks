@@ -1,0 +1,40 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <section class="content">
+      <h1>Fühlst du dich gerade einsam aufgrund der Kontaktbeschränkungen?</h1>
+      <p>Das Internet stellt dir zum Glück viele Technologien zur Verfügung, mit denen du deine sozialen Kontakte trotz physischer Distanz pflegen kannst</p>
+      <p>Beantworte einfach die folgenden Fragen und entdecke deine maßgeschneiderte Lösung</p>
+      <br/>
+      <h1>Worauf hast du Lust?</h1>
+      <ul class="request-list"> 
+          <a href="/weiterbildung.html">
+        <li>
+          <span class="text">Weiterbildung</span>
+          <div>
+            <i class="material-icons school">school</i>
+          </div>
+        </li>
+          </a>
+
+          <a href="/unterhaltung.html">
+        <li>
+          <span class="text">Unterhaltung</span>
+          <div>
+            <i class="material-icons tv">tv</i>
+          </div>
+        </li>
+          </a>
+          
+          <a href="/sport.html">
+        <li>
+          <span class="text">Sport</span>
+          <div>
+            <i class="material-icons sports_tennis">sports_tennis</i>
+          </div>
+        </li>
+          </a>
+      </ul>
+    </section>
+{% endblock %}

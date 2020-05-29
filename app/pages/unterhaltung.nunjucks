@@ -1,0 +1,46 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <section class="content">
+      <h1>Welche Art von Unterhaltung suchst du?</h1>
+      <ul class="request-list"> 
+          <a href="/unterhaltung_kommunizieren.html">
+        <li>
+          <span class="text">Kommunizieren</span>
+          <div>
+            <i class="material-icons phone_in_talk">phone_in_talk</i>
+          </div>
+        </li>
+          </a>
+
+          <a href="/unterhaltung_gemeinsamspielen.html">
+        <li>
+          <span class="text">Gemeinsam Spielen</span>
+          <div>
+            <i class="material-icons games">games</i>
+          </div>
+        </li>
+          </a>
+          
+          <a href="/unterhaltung_party.html">
+        <li>
+          <span class="text">Party</span>
+          <div>
+            <i class="material-icons local_activity">local_activity</i>
+          </div>
+        </li>
+          </a>
+
+          <a href="/unterhaltung_anschauen.html">
+        <li>
+          <span class="text">Filme/Serien schauen</span>
+          <div>
+            <i class="material-icons theaters">theaters</i>
+          </div>
+        </li>
+          </a>
+      </ul>
+      {% include "partials/backbutton.nunjucks" %}
+    </section>
+{% endblock %}
