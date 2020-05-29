@@ -5,19 +5,56 @@
   <section class="content">
       <h1>Erstellen einer Entscheidungshilfe zur Pflege von sozialen Kontakten</h1>
       <p>Ein Projekt im Rahmen von Managing Technological Change</p>
+      <h2>Inhaltsverzeichnis</h2>
+      <ol>
+        <li><a href="#motivation">Motivation</a></li>
+        <li><a href="#entscheidungsbaum">Der Entscheidungsbaum</a></li>
+        <li><a href="#webapp">Umsetzung als Webapp</a></li>
+        <li><a href="#technologien">Verwendete Technologien</a></li>
+        <li>
+          <ol>
+            <li><a href="#firebase">Firebase</a></li>
+            <li><a href="#code">Visual Studion Code</a></li>
+            <li><a href="#nunjucks">Nunjucks</a></li>
+            <li><a href="#github">GitHub</a></li>
+          </ol>
+        </li>
+
+      </ol>
       <br><br>
-      <h2>Einführung</h2>
-      <p>...</p>
-      <h2>Der Entscheidungsbaum</h2>
-      <p>...</p>
-      <h2>Ausarbeitung der Usecases</h2>
-      <p>...</p>
-      <h2>Umsetzung als Webapp</h2>
+      <h2 id="motivation">Motivation</h2>
+      <p>Aufgrund der strengen Ausgangsbeschränkungen und der immer noch anhaltenden Kontaktbeschränkung fällt es vielen Menschen zunehmend schwerer, ihre sozialen Kontakte zu pflegen oder neue Kontakte zu knüpfen. Die Folge können starke Einsamkeitsgefühle bis hin zu Depressionen sein. Auch Freundschaften können daran kaputt gehen.</p>
+      <p>Wir wollen, dass die Gesellschaft versteht, dass man sich NICHT SOZIAL von unserem gewohnten Umfeld distanzieren soll, sondern "nur" körperlich und räumlich. Um also weiterhin seine soziale Kontakte während der Ausgangs-/Kontaktbeschränkung zu pflegen, möchte unsere Gruppe ein Quiz zur Entscheidungshilfe auf Grundlage eines Entscheidungsbaumes entwickeln, der dabei helfen soll, neue Kontakte zu finden bzw. sich mit den bestehenden Kontakten zu vernetzen, die die gleichen Interessen (z.B. Lieblingsserie) bzw. das gleiche Vorhaben (z.B. Sport treiben) besitzen. Da es mittlerweile unzählige digitale Möglichkeiten gibt, wie man sich virtuell treffen oder trotz physischer Distanz gemeinsam Sport machen kann, wird sich unsere Partnergruppe aufgrund verschiedener Kriterien überlegen, welche vorhandene Technologie zu welchem Use Case am besten passt.  Ihre Vorgehensweise findet ihr im OneNote Dokument</p>
+      
+      <h2 id="entscheidungsbaum">Der Entscheidungsbaum</h2>
+      <img id="tree" src="images/entscheidungsbaum.png">
+      <p>Um den Entscheidungsbaum zu begrenzen, wurde sich für eine Aufteilung der möglichen Pfade zu Beginn des Baumes in die drei Bereiche „Weiterbildung“, „Unterhaltung“ und „Sport“ entschieden. Denkbar wäre z.B. auch der Bereich "Arbeit" gewesen, jedoch war die klare Meinung, man solle vor allem in der Corona-Zeit Arbeit und Freizeit klar trennen. 
+      <br>Der erste Pfad beginnt mit dem Thema „Weiterbildung“. Weiterbildung beschreibt verschiedene Bereiche. Dazu zählen unter anderem Onlinekurse und Sprachkurse. Um diese Bereiche zu untergliedern, wird im darauffolgenden Pfad zwischen der geplanten Weiterbildung „alleine“ oder „zusammen“ unterschieden. 
+      <br>Der zweite Pfad der Wurzel führt zu dem Thema „Unterhaltung“. Dieser spaltet sich folgend in die Bereiche „Kommunizieren“, „Gemeinsam Spielen“, „Partys“ und „Filme und Serien schauen“. 
+      <br>Der Bereich „Kommunizieren“ beschreibt Aktivitäten, bei denen die reine Kommunikation von Personen im Vordergrund steht, auch bei zeitgleichen anderen Aktivitäten. Die Unterteilung erfolgt in Gruppen mit einer Größe von zwei Personen und einer von mehr als zwei Personen. Der Grund dafür ist, dass es bestimmte Technologien gibt, die nur eine Kommunikation mit 2 Personen erlaubt. 
+      <br>Der Bereich „Gemeinsam Spielen“ unterscheidet zwischen „Videospielen“ und „Gesellschaftsspielen“. Grund hierfür ist, dass Videospiele häufig schon zahlreiche Kommunikationsmöglichkeiten bieten. Unter Gesellschaftsspiele sind Spiele wie Rommé oder Schnauz gemeint. 
+      <br>Der Bereich „Party“ gliedert sich in „Trinkspiele“ und „Live Unterhaltung“ auf. Mit Live Unterhaltung sind beispielsweise verschiedene YouTube Konzerte gemeint.
+      <br>Der letzte Pfad der Wurzel beschreibt die Aktivität "Sport". Die erste Unterscheidung ist hierbei, Sport zu Hause und Sport im Freien. Ein Grund war hierfür ganz einfach das schlechte Wetter, was uns oft zwingt, daheim zu bleiben. 
+      <br>Für Sport zu Hause gibt es die Möglichkeit zur Unterstützung durch einen Trainer. Dementsprechend sind die beiden Endpunkte des Pfades, Sport mit Trainer und selbstorganisiertem Sport.
+      <br>Für Sport im Freien wird zwischen einem stark auf Wettkampf fokussiertem Sport und lockerem Sport unterschieden. Grund dafür ist, dass beim Sport mit Wettkampfcharakter beispielsweise eine genaue Datenerfassung notwendig ist. Hingegen ist beim entspannten Sport das Erlebnisgefühl entscheidend.</p>
+      
+      <h2 id="webapp">Umsetzung als Webapp</h2>
       <p>Um die Entscheidungshilfe möglichst einfach und zugänglich zu gestalten, wurde beschlossen sie in Form einer Webapp im Internet zu Hosten. 
-      Dadurch lässt sich die Entscheidungshilfe unabhängig von Gerät, Betreibssystem und Webbrowser bequem online nutzen.
-      Für das Hosten der Website wird das Google Tool <a href="https://firebase.google.com/">Firebase</a> verwendet.
-      Firebase ermöglicht neben einigen anderen Funktionen das kostenlose Hosten von Webseiten. 
-       </p>
+      Dadurch lässt sich die Entscheidungshilfe unabhängig von Gerät, Betreibssystem und Webbrowser ohne Installation bequem online nutzen.</p>
+      
+      <h2 id="technologien">Verwendete Technologien</h2>
+      <p>Im folgenden sollend die zur Erstellung der Webseite verwendeten Technologien kurz vorgestellt werden. Außerdem soll erklärt werden, wieso die jeweiligen Technologien und keine Konkurrenzprodukte verwendet wurden.</p>
+      
+      <h3 id="firebase">Firebase</h3>
+      <p>Für das Hosten der Website wird das Google Tool <a href="https://firebase.google.com/">Firebase</a> verwendet.
+      Firebase ermöglicht neben einigen anderen Funktionen das kostenlose Hosten von Webseiten. Es wurde sich für Firebase entschieden, da im Team bereits Erfahrungen mit dem Hosten von statischen Webseiten mit Firebase vorhanden waren. Außerdem lässt sich durch die Verwendung von Firebase die Webapp leicht um weitere Features wie eine Integration von Google Analytics erweitern.</p>
+      <h3 id="code">Visual Studio Code</h3>
+      <p>Zum Erstellen der für die Webapp benötigten Quelldateien wurde der Codeeditor <a href="https://code.visualstudio.com/">Visual Studio Code</a> verwendet. Die Vorteile von VS Code liegen neben der Möglichkeit </p>
+      <h3 id="nunjucks">Nunjucks</h3>
+      <p>...</p>
+      <h3 id="github">Github</h3>
+      <p>...</p>
+
        <p><a href="https://zellwk.com/blog/nunjucks-with-gulp/">Nunjucks mit Gulp Tutorial</a></p>
        <p><a href="https://css-tricks.com/gulp-for-beginners/">Gulp for Beginners</a></p>
        <p><a href="https://github.com/iamshaunjp/firebase-functions/blob/lesson-3/public/css/styles.css">CSS Vorlage</a></p>

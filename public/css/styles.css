@@ -1,3 +1,4 @@
+/* Wir bitten um Vergebung für unsere Unfähigkeit, CSS richtig zu verwenden */
 /* mini reset */
   body{
     margin: 0;
@@ -141,4 +142,11 @@ li a:hover{
 
 .backbutton, .homebutton{
   margin-bottom: 50px;
+}
+
+#tree{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
