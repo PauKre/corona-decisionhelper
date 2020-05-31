@@ -10,36 +10,29 @@
         <li><a href="#motivation">Motivation</a></li>
         <li><a href="#entscheidungsbaum">Der Entscheidungsbaum</a></li>
         <li><a href="#webapp">Umsetzung als Webapp</a></li>
-        <li><a href="#design">Design</a></li>
-        <li><a href="#technologien">Verwendete Technologien</a></li>
 
       </ol>
-      <br><br>
       <h2 id="motivation">Motivation</h2>
       <p>Aufgrund der strengen Ausgangsbeschränkungen und der immer noch anhaltenden Kontaktbeschränkung fällt es vielen Menschen zunehmend schwerer, ihre sozialen Kontakte zu pflegen oder neue Kontakte zu knüpfen. Die Folge können starke Einsamkeitsgefühle bis hin zu Depressionen sein. Auch Freundschaften können daran kaputt gehen.</p>
-      <p>Wir wollen, dass die Gesellschaft versteht, dass man sich NICHT SOZIAL von unserem gewohnten Umfeld distanzieren soll, sondern "nur" körperlich und räumlich. Um also weiterhin seine soziale Kontakte während der Ausgangs-/Kontaktbeschränkung zu pflegen, möchte unsere Gruppe ein Quiz zur Entscheidungshilfe auf Grundlage eines Entscheidungsbaumes entwickeln, der dabei helfen soll, neue Kontakte zu finden bzw. sich mit den bestehenden Kontakten zu vernetzen, die die gleichen Interessen (z.B. Lieblingsserie) bzw. das gleiche Vorhaben (z.B. Sport treiben) besitzen. Da es mittlerweile unzählige digitale Möglichkeiten gibt, wie man sich virtuell treffen oder trotz physischer Distanz gemeinsam Sport machen kann, wird sich unsere Partnergruppe aufgrund verschiedener Kriterien überlegen, welche vorhandene Technologie zu welchem Use Case am besten passt.  Ihre Vorgehensweise findet ihr im OneNote Dokument</p>
+      <p>Ziel des Projektes ist es, gezielt Technologien vorzustellen, die es ermöglichen die räumlichen Grenzen zwischen Personen zu überwinden und dadurch auch während Kontaktbeschränkungen die Pflege von sozialen Kontakten ermöglichen. Um das zu erreichen, sollte ein Quiz entwickelt werden, das auf einem Entscheidungsbaum basiert. Ergebnis des Quiz sind bestimmte Use Cases. Diese Use Cases wurden von einer weiteren Gruppe genauer behandelt. So wurden Personas erstellt, Nutzwertanalysen durchgeführt und schließlich konkrete Technologien beschrieben. Es wurde beschlossen, das Quiz, zusammen mit den konkreten Technologien für die jeweiligen Use Cases als eine Webapp im Internet zu hosten. Auf der Über-Seite dieser Webapp soll der dem Quiz zugrundeliegende Entscheidungsbaum, sowie die Entwicklung Webapp genauer beschrieben werden. Außerdem soll kurz auf einige Interessante verwendete Technologien eingegangen werden.</p>
       
       <h2 id="entscheidungsbaum">Der Entscheidungsbaum</h2>
       <img id="tree" src="images/entscheidungsbaum.png">
-      <p>Um den Entscheidungsbaum zu begrenzen, wurde sich für eine Aufteilung der möglichen Pfade zu Beginn des Baumes in die drei Bereiche „Weiterbildung“, „Unterhaltung“ und „Sport“ entschieden. Denkbar wäre z.B. auch der Bereich "Arbeit" gewesen, jedoch war die klare Meinung, man solle vor allem in der Corona-Zeit Arbeit und Freizeit klar trennen. 
-      <br>Der erste Pfad beginnt mit dem Thema „Weiterbildung“. Weiterbildung beschreibt verschiedene Bereiche. Dazu zählen unter anderem Onlinekurse und Sprachkurse. Um diese Bereiche zu untergliedern, wird im darauffolgenden Pfad zwischen der geplanten Weiterbildung „alleine“ oder „zusammen“ unterschieden. 
-      <br>Der zweite Pfad der Wurzel führt zu dem Thema „Unterhaltung“. Dieser spaltet sich folgend in die Bereiche „Kommunizieren“, „Gemeinsam Spielen“, „Partys“ und „Filme und Serien schauen“. 
-      <br>Der Bereich „Kommunizieren“ beschreibt Aktivitäten, bei denen die reine Kommunikation von Personen im Vordergrund steht, auch bei zeitgleichen anderen Aktivitäten. Die Unterteilung erfolgt in Gruppen mit einer Größe von zwei Personen und einer von mehr als zwei Personen. Der Grund dafür ist, dass es bestimmte Technologien gibt, die nur eine Kommunikation mit 2 Personen erlaubt. 
-      <br>Der Bereich „Gemeinsam Spielen“ unterscheidet zwischen „Videospielen“ und „Gesellschaftsspielen“. Grund hierfür ist, dass Videospiele häufig schon zahlreiche Kommunikationsmöglichkeiten bieten. Unter Gesellschaftsspiele sind Spiele wie Rommé oder Schnauz gemeint. 
+      <p>Im obigen Bild ist der fertige Entscheidungsbaum zu sehen. Zu Beginn wurde sich für eine Aufteilung der Pfade in die drei Bereiche „Weiterbildung“, „Unterhaltung“ und „Sport“ entschieden.
+      <br>Weiterbildung umfasst verschiedene Bereiche. Dazu zählen unter anderem Onlinekurse und Sprachkurse. Um diese Bereiche zu untergliedern, wird am nächsten Knoten zwischen Weiterbildung „alleine“ oder „zusammen“ unterschieden. 
+      <br>Der zweite Kindknoten der Wurzel trägt den Namen „Unterhaltung“. Dieser spaltet sich anschließend in die Bereiche „Kommunizieren“, „Gemeinsam Spielen“, „Partys“ und „Filme und Serien schauen“.
+      <br>Der Bereich „Kommunizieren“ beschreibt Aktivitäten, bei denen die reine Kommunikation von Personen im Vordergrund steht, auch bei zeitgleichen anderen Aktivitäten. Die Unterteilung erfolgt in Gruppen mit einer Größe von zwei Personen und einer von mehr als zwei Personen. Der Grund dafür ist, dass Technologien berücksichtigt werden sollen, die speziell für die Kommunikation in der Gruppe entwickelt wurden.
+      <br>Der Bereich „Gemeinsam Spielen“ unterscheidet zwischen „Videospielen“ und „Gesellschaftsspielen“. Als Gesellschaftsspiele werden auch Kartenspiele wie Rommé oder Schnauz verstanden.
       <br>Der Bereich „Party“ gliedert sich in „Trinkspiele“ und „Live Unterhaltung“ auf. Mit Live Unterhaltung sind beispielsweise verschiedene YouTube Konzerte gemeint.
-      <br>Der letzte Pfad der Wurzel beschreibt die Aktivität "Sport". Die erste Unterscheidung ist hierbei, Sport zu Hause und Sport im Freien. Ein Grund war hierfür ganz einfach das schlechte Wetter, was uns oft zwingt, daheim zu bleiben. 
-      <br>Für Sport zu Hause gibt es die Möglichkeit zur Unterstützung durch einen Trainer. Dementsprechend sind die beiden Endpunkte des Pfades, Sport mit Trainer und selbstorganisiertem Sport.
-      <br>Für Sport im Freien wird zwischen einem stark auf Wettkampf fokussiertem Sport und lockerem Sport unterschieden. Grund dafür ist, dass beim Sport mit Wettkampfcharakter beispielsweise eine genaue Datenerfassung notwendig ist. Hingegen ist beim entspannten Sport das Erlebnisgefühl entscheidend.</p>
+      <br>Der letzte Pfad der Wurzel beschreibt die Aktivität "Sport". Die erste Unterscheidung ist hierbei, Sport zu Hause und Sport im Freien.
+      <br>Für Sport zu Hause gibt es die Möglichkeit zur Unterstützung durch einen Trainer. Dementsprechend sind die beiden Use Cases dieses Pfades, Sport zu Hause mit Trainer und selbstorganisiertem Sport zu Hause.
+      <br>Für Sport im Freien wird zwischen einem stark auf Wettkampf fokussiertem Sport und lockerem Sport unterschieden. Grund dafür ist, dass beim Sport mit Wettkampfcharakter beispielsweise eine genaue Datenerfassung notwendig ist. Hingegen ist beim entspannten Sport eher das Erlebnisgefühl entscheidend.</p>
       
       <h2 id="webapp">Umsetzung als Webapp</h2>
       <p>Um die Entscheidungshilfe möglichst einfach und zugänglich zu gestalten, wurde beschlossen sie in Form einer Webapp im Internet zu Hosten. 
-      Dadurch lässt sich die Entscheidungshilfe unabhängig von Gerät, Betreibssystem und Webbrowser ohne Installation bequem online nutzen.</p>
-      <h2 id="design">Design</h2>
-      <p>Um das Design unserer Webapp festzulegen haben wir CSS verwendet, da diese mit HTML kompatibel und ein weltweiter Standard in der Webprogrammierung sind.</p>
-      <h3>Was ist CSS?</h3>
-      <p>CSS ist eine der Kernsprachen des World-Wide-Web und wird ständig vom World Wide Web Consortium (W3C) weiterentwickelt. CSS ist eine Syle-Sheet-Sprache, mit der festgelegt werden kann, wie verschiedene Elemente auf einer Website aussehen sollen. CSS ermöglicht es, dass der Inhalt und das Design einer Website voneinander getrennt implementiert werden können. Dadurch kann die Darstellungsweise von verschiedenen HTML-Dokumenten unabhängig von der Plattform vereinheitlicht werden.</p>
-      <h2 id="technologien">Verwendete Technologien</h2>
-      <p>Im folgenden sollend die zur Erstellung der Webseite verwendeten Technologien kurz vorgestellt werden. Außerdem soll erklärt werden, wieso die jeweiligen Technologien und keine Konkurrenzprodukte verwendet wurden.</p>
+      Dadurch lässt sich die Entscheidungshilfe unabhängig von Gerät, Betriebssystem und Webbrowser ohne Installation bequem online nutzen.</p>
+      <h3 id="design">Design</h3>
+      <p>Um ein ansprechendes und mordernes Design zu schaffen, wurde auf eine <a href="https://github.com/iamshaunjp/firebase-functions/blob/lesson-3/public/css/styles.css">CSS-Vorlage</a> zurückgegriffen, deren Farben auf die der FAU angepasst wurden. Für die Icons wurden die von Google zur Verfügung gestellten <a href="https://material.io/resources/icons/?style=baseline">Material Icons</a> verwendet.</p>
       
       <h3 id="firebase">Firebase</h3>
       <p>Für das Hosten der Website wird das Google Tool <a href="https://firebase.google.com/">Firebase</a> verwendet.
@@ -47,13 +40,8 @@
       <h3 id="code">Visual Studio Code</h3>
       <p>Zum Erstellen der für die Webapp benötigten Quelldateien wurde der Codeeditor <a href="https://code.visualstudio.com/">Visual Studio Code</a> verwendet. Die Vorteile von VS Code waren für uns vor allem die hohen individuellen Anpassbarkeit, das ansprechende Design und das integriete powershell Terminal.</p>
       <h3 id="nunjucks">Nunjucks</h3>
-      <p>Nunjucks ist eine Template Engine. Template Engines ermöglichen das Unterteilen des Quellcodes in kleinere Teile und das individuelle Zusammenfügen dieser zu gültigen HTML Dateien mit einm Terminalbefehl. Durch Nunjucks war es zum Beispiel möglich, die Kopfzeile in ein sogenanntes Partial auszulagern und sie in jede Unterseite einzubinden. Änderte sich nun etwas an der Kopfzeile, mussten diese Änderungen nicht für alle Unterseiten wiederholt werden, da die selbe (nun geänderte) Datei für alle Unterseiten eingebunden werden konnte.</p>
+      <p><a href="https://mozilla.github.io/nunjucks/">Nunjucks</a> ist eine Template Engine. Template Engines ermöglichen das Unterteilen des Quellcodes in kleinere Teile und das individuelle Zusammenfügen dieser zu gültigen HTML Dateien mit einm Terminalbefehl. Durch Nunjucks war es zum Beispiel möglich, die Kopfzeile in ein sogenanntes Partial auszulagern und sie in jede Unterseite einzubinden. Änderte sich nun etwas an der Kopfzeile, mussten diese Änderungen nicht für alle Unterseiten wiederholt werden, da die selbe (nun geänderte) Datei für alle Unterseiten eingebunden werden konnte.</p>
       <h3 id="github">Github</h3>
-      <p>GitHub ist die weltweit führende Softwareentwicklungsplatform und ermöglicht das kollaborative Entwickeln von Software auf verschiedenen Geräten. GitHub ermöglicht es, dass der Stand des Softwareprojekts auf allen Geräten identisch ist. Außerdem ist es durch GitHub möglich, bei göberen Fehlern auf die letzte funktionierende Version "zurückzurollen". Für dieses Projekt wird GitHub vor allem dafür, und als Instrument um den <a href="https://github.com/PauKre/corona-decisionhelper">Quellcode</a> online zur Verfügung zu stellen verwendet.</p>
-
-       <p><a href="https://zellwk.com/blog/nunjucks-with-gulp/">Nunjucks mit Gulp Tutorial</a></p>
-       <p><a href="https://css-tricks.com/gulp-for-beginners/">Gulp for Beginners</a></p>
-       <p><a href="https://github.com/iamshaunjp/firebase-functions/blob/lesson-3/public/css/styles.css">CSS Vorlage</a></p>
-       <p><a href="https://material.io/resources/icons/?style=baseline">Google Icons</a></p>
+      <p>GitHub ist die weltweit führende Softwareentwicklungsplatform und ermöglicht das kollaborative Entwickeln von Software auf verschiedenen Geräten. GitHub ermöglicht es, dass der Stand des Softwareprojekts auf allen Geräten identisch ist. Außerdem ist es durch GitHub möglich, bei göberen Fehlern auf die letzte funktionierende Version "zurückzurollen". Für dieses Projekt wird GitHub vor allem dafür verwendet, den <a href="https://github.com/PauKre/corona-decisionhelper">Quellcode</a> online zur Verfügung zu stellen.</p>
     </section>
 {% endblock %}

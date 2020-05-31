@@ -5,7 +5,7 @@
   <section class="content">
       <h1>Du willst also Liveunterhaltung mit deinen Freunden genießen</h1>
       <p>Hier sind deine Möglichkeiten: ....</p>
-      <ul>
+      <ul class="agenda">
         <li><a href="#instagram">Instagram</a></li>
         <li><a href="#facebook">Facebook</a></li>
         <li><a href="#youtube">YouTube</a></li>

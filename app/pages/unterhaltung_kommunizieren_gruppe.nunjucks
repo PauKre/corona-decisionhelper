@@ -5,7 +5,7 @@
   <section class="content">
       <h1>Du willst also mit einer Gruppe von Freunden online kommunizieren!</h1>
       <p>Hier sind deine Möglichkeiten:</p>
-      <ul>
+      <ul class="agenda">
         <li><a href="#zoom">Zoom</a></li>
         <li><a href="#houseparty">Houseparty</a></li>
         <li><a href="#snapchat">Snapchat</a></li>
@@ -41,7 +41,7 @@
       
       <br/><br/>
       
-      <h2 id="houseparty">Housparty</h2>
+      <h2 id="houseparty">Houseparty</h2>
       <h3>Beschreibung</h3>
       <p>Houseparty ist eine Gruppenvideochat-App für iOS, Android, macOS und Chrome, bei der sich bis zu acht Personen in einem Raum treffen können. Beginnt ein Nutzer einen Videochat mit einem seiner Freunde, entsteht ein virtueller Raum, dem nun die Kontakte der Beiden einfach beitreten können. Sind Beide bereits online, genügt ein Klick um das Gespräch zu beginnen, denn es gibt kein vorheriges Klingeln. Außerdem erhält man eine Benachrichtigung wenn ein Freund "im Haus ist" (also online ist). Ziel der App ist es, das Zusammenkommen möglichst unkompliziert zu gestalten und durch das einfache Beitreten über verschiedene Freunde das Gefühl einer Houseparty nachzuempfinden.  </p>
       <h3>Besonderheiten</h3>

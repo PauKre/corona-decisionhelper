@@ -3,7 +3,7 @@
 
 {% block content %}
   <section class="content">
-      <p>Diese Seite ist gerade noch in Arbeit. Komm später wieder</p>
-    {% include "partials/backbutton.nunjucks" %}
+      <p>Ups, hier ist wohl etwas schief gegangen</p>
+    {% include "partials/homebutton.nunjucks" %}
     </section>
 {% endblock %}

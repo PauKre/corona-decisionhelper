@@ -5,7 +5,7 @@
   <section class="content">
       <h1>Du willst zu Hause mit einem Trainer trainieren!</h1>
       <p>Hier sind deine Möglichkeiten: ....</p>
-      <ul>
+      <ul class="agenda">
         <li><a href="#freeletics">Freeletics</a></li>
         <li><a href="#centr">Centr</a></li>
         <li><a href="#gymondo">Gymondo</a></li>
