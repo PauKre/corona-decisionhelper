@@ -10,15 +10,8 @@
         <li><a href="#motivation">Motivation</a></li>
         <li><a href="#entscheidungsbaum">Der Entscheidungsbaum</a></li>
         <li><a href="#webapp">Umsetzung als Webapp</a></li>
+        <li><a href="#design">Design</a></li>
         <li><a href="#technologien">Verwendete Technologien</a></li>
-        <li>
-          <ol>
-            <li><a href="#firebase">Firebase</a></li>
-            <li><a href="#code">Visual Studion Code</a></li>
-            <li><a href="#nunjucks">Nunjucks</a></li>
-            <li><a href="#github">GitHub</a></li>
-          </ol>
-        </li>
 
       </ol>
       <br><br>
@@ -41,7 +34,10 @@
       <h2 id="webapp">Umsetzung als Webapp</h2>
       <p>Um die Entscheidungshilfe möglichst einfach und zugänglich zu gestalten, wurde beschlossen sie in Form einer Webapp im Internet zu Hosten. 
       Dadurch lässt sich die Entscheidungshilfe unabhängig von Gerät, Betreibssystem und Webbrowser ohne Installation bequem online nutzen.</p>
-      
+      <h2 id="design">Design</h2>
+      <p>Um das Design unserer Webapp festzulegen haben wir CSS verwendet, da diese mit HTML kompatibel und ein weltweiter Standard in der Webprogrammierung sind.</p>
+      <h3>Was ist CSS?</h3>
+      <p>CSS ist eine der Kernsprachen des World-Wide-Web und wird ständig vom World Wide Web Consortium (W3C) weiterentwickelt. CSS ist eine Syle-Sheet-Sprache, mit der festgelegt werden kann, wie verschiedene Elemente auf einer Website aussehen sollen. CSS ermöglicht es, dass der Inhalt und das Design einer Website voneinander getrennt implementiert werden können. Dadurch kann die Darstellungsweise von verschiedenen HTML-Dokumenten unabhängig von der Plattform vereinheitlicht werden.</p>
       <h2 id="technologien">Verwendete Technologien</h2>
       <p>Im folgenden sollend die zur Erstellung der Webseite verwendeten Technologien kurz vorgestellt werden. Außerdem soll erklärt werden, wieso die jeweiligen Technologien und keine Konkurrenzprodukte verwendet wurden.</p>
       
@@ -49,16 +45,15 @@
       <p>Für das Hosten der Website wird das Google Tool <a href="https://firebase.google.com/">Firebase</a> verwendet.
       Firebase ermöglicht neben einigen anderen Funktionen das kostenlose Hosten von Webseiten. Es wurde sich für Firebase entschieden, da im Team bereits Erfahrungen mit dem Hosten von statischen Webseiten mit Firebase vorhanden waren. Außerdem lässt sich durch die Verwendung von Firebase die Webapp leicht um weitere Features wie eine Integration von Google Analytics erweitern.</p>
       <h3 id="code">Visual Studio Code</h3>
-      <p>Zum Erstellen der für die Webapp benötigten Quelldateien wurde der Codeeditor <a href="https://code.visualstudio.com/">Visual Studio Code</a> verwendet. Die Vorteile von VS Code liegen neben der Möglichkeit </p>
+      <p>Zum Erstellen der für die Webapp benötigten Quelldateien wurde der Codeeditor <a href="https://code.visualstudio.com/">Visual Studio Code</a> verwendet. Die Vorteile von VS Code waren für uns vor allem die hohen individuellen Anpassbarkeit, das ansprechende Design und das integriete powershell Terminal.</p>
       <h3 id="nunjucks">Nunjucks</h3>
-      <p>...</p>
+      <p>Nunjucks ist eine Template Engine. Template Engines ermöglichen das Unterteilen des Quellcodes in kleinere Teile und das individuelle Zusammenfügen dieser zu gültigen HTML Dateien mit einm Terminalbefehl. Durch Nunjucks war es zum Beispiel möglich, die Kopfzeile in ein sogenanntes Partial auszulagern und sie in jede Unterseite einzubinden. Änderte sich nun etwas an der Kopfzeile, mussten diese Änderungen nicht für alle Unterseiten wiederholt werden, da die selbe (nun geänderte) Datei für alle Unterseiten eingebunden werden konnte.</p>
       <h3 id="github">Github</h3>
-      <p>...</p>
+      <p>GitHub ist die weltweit führende Softwareentwicklungsplatform und ermöglicht das kollaborative Entwickeln von Software auf verschiedenen Geräten. GitHub ermöglicht es, dass der Stand des Softwareprojekts auf allen Geräten identisch ist. Außerdem ist es durch GitHub möglich, bei göberen Fehlern auf die letzte funktionierende Version "zurückzurollen". Für dieses Projekt wird GitHub vor allem dafür, und als Instrument um den <a href="https://github.com/PauKre/corona-decisionhelper">Quellcode</a> online zur Verfügung zu stellen verwendet.</p>
 
        <p><a href="https://zellwk.com/blog/nunjucks-with-gulp/">Nunjucks mit Gulp Tutorial</a></p>
        <p><a href="https://css-tricks.com/gulp-for-beginners/">Gulp for Beginners</a></p>
        <p><a href="https://github.com/iamshaunjp/firebase-functions/blob/lesson-3/public/css/styles.css">CSS Vorlage</a></p>
        <p><a href="https://material.io/resources/icons/?style=baseline">Google Icons</a></p>
-       <p><a href="https://code.visualstudio.com/">Visual Studio Code</a></p>
     </section>
 {% endblock %}
